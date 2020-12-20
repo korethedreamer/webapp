@@ -1,5 +1,5 @@
 FROM ubuntu
-LABEL maintainer="koredream" Author="koredream" Purpose="Test de push dockerfile"
+LABEL maintainer="koredream" Author="koredream" Purpose="Test de push dockerfile" autre="test"
 EXPOSE 80
 RUN apt-get update -y
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y git nginx
