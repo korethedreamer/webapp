@@ -1,5 +1,5 @@
 FROM ubuntu
-LABEL maintainer="koredream"
+LABEL maintainer="koredream" Author="koredream"
 EXPOSE 80
 RUN apt-get update -y
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y git nginx
